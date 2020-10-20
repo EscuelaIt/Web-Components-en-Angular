@@ -11,7 +11,7 @@ export class AppComponent {
   menuOpened = false;
 
   openMenu() {
-    this.menuOpened = ! this.menuOpened;
+    this.menuOpened = true;
   }
 
   menuClosedHandler() {
